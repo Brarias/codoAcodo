@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+</head>
+
+<body>
+  <script>
+    let notas;
+    let promedio;
+    let acumNotas = 0;
+    let nombreAlumno;
+
+    nombreAlumno = prompt("Ingrese el nombre del alumno: ");
+
+    for (var i = 0; i < 3; i++) {
+      notas = Number(prompt("Ingrese la nota: "));
+      acumNotas += notas;
+    }
+
+    promedio = acumNotas / 3;
+    alert("El promedio del alumno : " + nombreAlumno + " es: " + promedio);
+
+  </script>
+</body>
+
+</html>

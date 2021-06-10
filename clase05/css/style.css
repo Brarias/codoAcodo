@@ -1,0 +1,28 @@
+h1 {
+  color: coral;
+  text-align: center;
+}
+
+p {
+  color:#5d9b9b
+  background-color: pink;
+  font-size: 12px;
+}
+
+#negrita {
+  text-align: right;
+}
+
+.centrado {
+  text-align: center;
+}
+
+#xxx {
+  color: violet;
+}
+
+div p{
+  color: green;
+  font-size: 20px;
+  font-weight: bold;
+}

@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+</head>
+
+<body>
+
+  <script>
+
+
+
+
+
+    let edad1;
+    edad1 = parseInt(prompt("Ingrese su edad: "));
+
+
+    function edad() {
+      if (edad > 17) {
+        alert("Es mayor de edad");
+      } else {
+        alert("Es menor de edad");
+      }
+    }
+    edad();
+
+    function edadMayor() {
+      var mayorEdad = 0;
+      var edades = [];
+      for (var i = 0; i < 3; i++) {
+        edades[i] = Number(prompt("Ingrese edad: "));
+        if (edades[i] > mayorEdad) {
+          mayorEdad = edades[i];
+        }
+      }
+
+      alert("La edad mayor es: " + mayorEdad);
+
+    }
+
+  </script>
+
+</body>
+
+</html>

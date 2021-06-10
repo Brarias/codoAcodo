@@ -1,0 +1,33 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+.imagenCodo {
+  margin-left: 10px;
+}
+.menu {
+  background-color:  #a9a9a9
+  text-align: end;
+  padding: 10px;
+}
+a:link {
+  color: black;
+}
+footer {
+  background-color: #a9a9a9
+  text-align: center;
+}
+.imagenHtml5 {
+  width: 200px;
+  margin-left: 20%;
+}
+.imagenCss3 {
+  width: 20px;
+  margin-left: 10%;
+}
+.texto {
+  margin-left: 10%;
+}
+.texto2 {
+  margin-left: 10%;
+}

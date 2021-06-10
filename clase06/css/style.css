@@ -1,0 +1,21 @@
+p {
+  color: red !important; /*Sobreescribe a todos !important*/
+  font-family: "Sofia";
+  font-size: 22px;
+}
+#parrafo {
+  color: blue; /*Sobreescribe a clases, subclases y etiquetas y pseudoelementos*/
+}
+.parrafo {
+  color: green; /*Sobreescribe a etiquetas y pseudoelementos*/
+}
+p {
+  color: orange;
+}
+aside {
+  background-color: violet;
+  align-content: center;
+}
+.fab fa-facebook {
+  color: gray;
+}

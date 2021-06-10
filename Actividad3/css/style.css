@@ -1,0 +1,25 @@
+
+div{
+  height: 500px;
+  background-color: red;
+  width: 450px;
+   float: left;
+   margin-right: 15px;
+}
+#black{
+  height: 500px;
+  background-color: black;
+  width: 450px;
+  margin-right: 15px;
+}
+p{
+  color: yellow;
+  font-size: 50px;
+  margin-top: 10px;
+  
+}
+#blanco{
+  color: white;
+  font-size: 50px;
+  margin-top: 10px;
+}
